@@ -1,0 +1,36 @@
+.mat-card {
+  width: 100%;
+}
+input.mat-input-element {
+  margin-top: 0.6em;
+}
+.mat-flat-button {
+  width: 50%;
+}
+
+.title_header {
+  height: 70px;
+}
+.centered {
+  display: flex;           /* establish flex container */
+  justify-content: center; /* center items vertically, in this case */
+}
+#container {
+  display: flex;           /* establish flex container */
+  justify-content: center; /* center items vertically, in this case */
+  height: 300px;
+}
+
+.box {
+  margin: 5px;
+}
+
+.form-container {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+.full_element {
+  width: 100%;
+  margin-bottom: 30px;
+}

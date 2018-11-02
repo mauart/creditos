@@ -4,15 +4,15 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false,
-  HOME_URI: '/home',
-  VERSION: '0.0.0',
+  production: $PRODUCTION,
+  HOME_URI: '$HOME_URI',
+  VERSION: '$VERSION',
   FIREBASE: {
-    apiKey: 'AIzaSyDbIvJliiINdttSHietP7-vkF4E9ptYW6c',
-    authDomain: 'creditos-7d641.firebaseapp.com',
-    databaseURL: 'https://creditos-7d641.firebaseio.com',
-    projectId: 'creditos-7d641',
-    storageBucket: 'creditos-7d641.appspot.com',
-    messagingSenderId: '355442512072'
+    apiKey: '$FIRE_APIKEY',
+    authDomain: '$FIRE_AUTHDOMAIN',
+    databaseURL: '$FIRE_DB',
+    projectId: '$FIRE_PROJECTID',
+    storageBucket: '$FIRE_STOREBUCKET',
+    messagingSenderId: '$FIRE_MSGID'
   }
 };
